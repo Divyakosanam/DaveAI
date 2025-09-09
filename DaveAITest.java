@@ -71,7 +71,7 @@ public class DaveAITest extends BaseClass  {
 		s.selectByVisibleText("AI Chatbot");
 		
 		WebElement phone = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@type='tel']")));
-		phone.sendKeys("9676127498");
+		phone.sendKeys("1234567890");
 		
 		WebElement submit = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@type='submit']")));
 		submit.click();
@@ -83,4 +83,5 @@ public class DaveAITest extends BaseClass  {
 
 	}
 }
+
 
